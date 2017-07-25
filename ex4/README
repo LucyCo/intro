@@ -1,0 +1,29 @@
+=============================
+=  README for Point.java, PrimesEnumerator.java, PrimesDensityVisualizer.java  =
+=============================
+
+usage: java PrimesDensityVisualizer (int number)
+
+==================
+=  Description:  =
+==================
+
+PrimesDensityVisualizer.java uses the classes Point.java which represents a two dimensional point and class
+PrimesEnumerator.java which tests primality and generates prime numbers in a specified range to presents the 
+density of prime numbers, and compare it to the approximation function. it also uses the class Plotter.java 
+to draw two lines through the points the functions meet.
+
+=============================
+=  List of submitted files: =
+=============================
+
+README          This file
+Point.java    Represents a two dimensional point.
+PrimesEnumerator.java    Tests primality and generates prime numbers in a specified range.
+PrimesDensityVisualizer.java    Contains the main method. Presents the density of prime numbers, 
+and compares it to the approximation function.
+
+======================
+=  Special Comments  =
+======================
+

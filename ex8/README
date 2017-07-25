@@ -1,0 +1,60 @@
+=============================
+=  README for AdditionSequence.java ConsecutiveRatioSequence.java ConstantSequence.java
+ CumulativeSumSequence.java FibonacciSequence.java FiniteSequence.java
+ IdentitySequence.java MultiplicationSequence.java PowerSequence.java Sequence.java
+ SequenceFactory.java SequenceViewer.java DivisionSequence.java myInput.txt  =
+=============================
+
+usage: java SequenceViewer <txt file>
+
+==================
+=  Description:  =
+==================
+
+This program can parse arbitrary strings that represent sequences of natural numbers,
+ and display them as 2d graphs in a window.
+There are 10 implements of the interface sequence that the program uses in order to
+ examine a given string that represents a mathematic expression.
+
+The "brain" of the program is the SequenceFactory class that receives the string
+ expression and examines it (recursively) until returning the correct types of sequences the expression gives us.
+
+the factory returns the type of sequence to the SequenceViewer class that uses intro
+ package's plotter classes to represent the output as a graph on a grid.
+
+The user can change the input file and arguments, as well as the string expression as 
+along as the arguments and the input is legal as it is in the API descriptions. 
+
+=============================
+=  List of submitted files: =
+=============================
+
+README          This file
+SequenceViewer.java   Contains the main method. Imports and scans the txt file, and
+ according to the arguments, uses the Factory and the plotter classes to represent the
+ sequence as a graph on a grid.
+
+ SequenceFactory.java  examines the input string expression recursively according to the
+ mathematical operator precedence rules. returns the parsed expression as a sequence.
+AdditionSequence.java   implements Sequence interface as an addition sequence
+MultiplicationSequence.java   implements Sequence interface as multiplication sequence
+PowerSequence.java   implements Sequence interface as a power sequence
+DivisionSequence.java   implements Sequence interface as a division sequence
+FibonacciSequence.java   implements Sequence interface as a fibonacci sequence
+ConsecutiveRatioSequence.java   implements Sequence interface as a ratio sequence
+CumulativeSumSequence.java   implements Sequence interface as a sum sequence
+FiniteSequence.java   implements Sequence interface as a finite sequence
+IdentitySequence.java   implements Sequence interface as an identity (infinite) sequence
+ConstantSequence.java   implements Sequence interface as a constant sequence
+myInput.txt This sample file represents the behavior of the sequence n^(1/n), meaning, the
+ n root of n. (the graph represents the sequence to both plus and minus values). colors of
+ the graph represent the range, as following:
+black for root values of 2-5
+blue for root values of 6-10
+green for root values of 50-1000
+and red for root values of 10000-infinity
+   
+======================
+=  Special Comments  =
+======================
+

@@ -1,0 +1,41 @@
+=============================
+=  README for NonRecursiveMystery.java GetToTheZero.java PuzzlePiece.java PuzzleSolver.java =
+=============================
+
+usage: java PuzzleDriver <board_num> <delay_in_milliseconds>
+
+==================
+=  Description:  =
+==================
+
+NonRecursiveMystery is a class with a none recursive method, that calculates the sum of a given 
+number's dividers (not including the number itself).
+
+GetToTheZero class attempts to solve a puzzle board of integers, and reach the last cell (0) by moving
+ back and forward along the board by the number of cells as the value of the current cell that we start moving from.
+ the method returns true if the puzzle is solvable and false if it isn't.
+
+PuzzleDriver uses the PuzzlePiece and PuzzleSolver classes (and other classes) in
+ order to solve a 2d array puzzle. and represent the solution on a gui grid.
+=============================
+=  List of submitted files: =
+=============================
+
+README          This file
+NonRecursiveMystery.java   Calculates a given number's all possible dividers (not including itself),
+ and returns their sum. if the number is smaller or equals to 1, the method returns 0.
+
+GetToTheZero.java   a class that receives a board (1d integer array) and uses a recursive method in order to 
+  tell if the board is solvable.
+
+PuzzlePiece.java    This class represents a puzzle piece: a shape made of some number of equal-sized square cells, 
+  where each square shares an edge with one or more other squares. 
+ It is initialized using a two-dimensional boolean array that represents the piece.
+
+PuzzleSolver.java   This class solves a Fill-the-Board puzzle, given a board and a list of pieces, 
+ using the recursive backtracking approach.
+
+======================
+=  Special Comments  =
+======================
+

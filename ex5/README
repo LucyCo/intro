@@ -1,0 +1,29 @@
+=============================
+=  README for GameOfLife.java , GameOfLifeDriver.java  =
+=============================
+
+usage: java GameOfLifeDriver height width file.txt cyclic/acyclic
+
+==================
+=  Description:  =
+==================
+
+The universe of the Game of Life is a two-dimensional orthogonal grid of square cells, eachof which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent to it. The game consists of a series of generations. A generation is a state of the world – which cells are alive, and which cells are dead. The game advances from the initial generation to the next generation and so on.
+
+GameOfLifeDriver.java is the activator of the game, it imports the values from the user and presents a grid window with the given values.
+
+GameOfLife.java is the possible actions of the game itself.
+
+=============================
+=  List of submitted files: =
+=============================
+
+README          This file
+GameOfLifeDriver.java   Contains the main method. Creates a new game using the IntroUtil scanner (to read the values from the user), the GridWindow class to present the game and the GameOfLife class to insert the actions of the game.
+
+ GameOfLife.java  contains the possible actions of the game itself 
+
+======================
+=  Special Comments  =
+======================
+

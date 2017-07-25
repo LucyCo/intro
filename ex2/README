@@ -1,0 +1,26 @@
+=============================
+=  README for Ex2a.java/Ex2b.java/Ex2c.java  =
+=============================
+
+
+usage: java Ex2a / java Ex2b / java Ex2c
+==================
+=  Description:  =
+==================
+Ex2a - calculates the range of target heart rate during exercise.
+Ex2b - solves quadratic equation.
+Ex2c - asks user for a strings and offer+performs  several actions with it.
+=============================
+=  List of submitted files: =
+=============================
+
+README          This file
+Ex2a.java    Contains the main method. Prints range of target heart rate while exercising.
+Ex2b   Contains the main method. Prints out the answers to a quadratic equation with the parameters given by the user.
+Ex2c.java    executes series of actions on a string given by the user.
+
+
+======================
+=  Special Comments  =
+======================
+

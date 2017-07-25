@@ -1,0 +1,30 @@
+=============================
+=  README for Circle.java, CircleTester.java, Rectangle.java, RectangleTester.java, Game.java, Mediator.java, Point.java =
+=============================
+
+usage: java Kaboom
+
+==================
+=  Description:  =
+==================
+
+A complete, yet abstract, representation of a Kaboom! game state, including the position of the bucket, 
+the position/direction of the bomber, the position(s) of the bombs, etc.
+
+=============================
+=  List of submitted files: =
+=============================
+
+README          This file
+Point.java  Represents a two dimentional point.
+Rectangle.java  A rectangle in the x/y plane, with sides parallel to the axes.
+Circle.java Class  whose instances represent circles in the x/y plane.
+RectangleTester.java  Tests the rectangle class.
+CircleTester.java  Tests the circle class.
+Game.java  The game methods.
+Mediator.java  A mediator between a Game logic and a KaboomView) GUI.
+
+======================
+=  Special Comments  =
+======================
+
